@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Tamaki</title>
+	<meta charset="utf-8"><!-- <base href="/"> -->
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<meta name="theme-color" content="#000">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="topbar d-none d-md-block">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-5 col-md-6">
+						<nav class="topbar__wrap">
+							<ul class="topbar__menu">
+								<li class="topbar__link"><a href="about.html" title="О компании">О компании</a></li>
+								<li class="topbar__link"><a href="vacancy.html" title="Вакансии">Вакансии</a></li>
+								<li class="topbar__link"><a href="sale.html" title="Акции">Акции</a></li>
+								<li class="topbar__link"><a href="press.html" title="Блог">Блог</a></li>
+								<li class="topbar__link"><a href="#" title="Контакты">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-6 col-lg-5">
+						<div class="topbar__left"><a href="tel:+74959894435" class="topbar__phone">+7 495 989 44 35</a>
+							<a href="mailto:hello@tamaki.ru" class="topbar__mail">hello@tamaki.ru</a>
+							<div class="language"><a href="#" data-lang="RU" class="language__item current">RU</a>
+								<div class="language__switcher"></div><a href="#" data-lang="EN"
+									class="language__item">EN</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu__wrap sticky-bar">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-md-3 col-4">
+						<div class="logo"><a href="index.html" title="Главная"><img src="img/logo.svg" alt="Tamaki"></a>
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-9 col-8">
+						<div class="mobile__wrap">
+							<div class="language d-flex d-md-none"><a href="#" data-lang="RU"
+									class="language__item current">RU</a>
+								<div class="language__switcher"></div><a href="#" data-lang="EN"
+									class="language__item">EN</a>
+							</div><button type="button" class="burger d-block d-md-none"><span></span></button>
+							<div class="menu__left-wrap">
+								<div class="menu__left">
+									<nav class="menu__nav">
+										<ul class="menu">
+											<li class="menu__item"><a href="catalog.html"
+													title="Продукция">Продукция</a></li>
+											<li class="menu__item has-children"><a href="study.html"
+													title="Обучение">Обучение</a> <span class="dropdown-arrow"></span>
+												<ul class="sub-menu">
+													<li class="sub-menu__item"><a href="academy.html"
+															title="Академия «Тамаки»">Академия «Тамаки»</a></li>
+													<!-- <li class="sub-menu__item">
+													<a href="#" title="Дистибьюторам">Дистибьюторам</a>
+												</li> -->
+												</ul>
+											</li>
+											<li class="menu__item delivery"><a href="#" title="Доставка суши">Доставка
+													суши</a></li>
+										</ul>
+									</nav>
+									<nav class="topbar__wrap d-block d-md-none">
+										<ul class="topbar__menu">
+											<li class="topbar__link"><a href="about.html" title="О компании">О
+													компании</a></li>
+											<li class="topbar__link"><a href="vacancy.html"
+													title="Вакансии">Вакансии</a></li>
+											<li class="topbar__link"><a href="sale.html" title="Акции">Акции</a></li>
+											<li class="topbar__link"><a href="press.html" title="Блог">Блог</a></li>
+											<li class="topbar__link"><a href="#" title="Контакты">Контакты</a></li>
+										</ul>
+									</nav><a href="#contact-us" class="btn modal-btn" title="Связаться с нами">Связаться
+										с нами</a>
+									<div class="socials d-flex d-md-none"><a href="vk.com" target="_blank"
+											class="socials__item vk" rel="nofollow"><img src="img/vk.svg"
+												alt="VK"></a><a href="instagram.com" target="_blank"
+											class="socials__item inst" rel="nofollow"><img src="img/inst.svg"
+												alt="instagram"></a><a href="facebook.com" target="_blank"
+											class="socials__item fb" rel="nofollow"><img src="img/fb.svg"
+												alt="facebook"></a><a href="youtube.com" target="_blank"
+											class="socials__item youtube" rel="nofollow"><img src="img/youtube.svg"
+												alt="youtube"></a></div><a href="tel:+74959894435"
+										class="topbar__phone d-block d-md-none">+7 495 989 44 35</a> <a
+										href="mailto:hello@tamaki.ru"
+										class="topbar__mail d-block d-md-none">hello@tamaki.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main-wrapper">
+		<!-- MAIN HTML -->
+		<div class="page__header about-page"><video autoplay muted loop id="bgVideo" poster="img/about-banner.png"
+				width="100%">
+				<source src="img/video.mp4" type="video/mp4">
+			</video>
+			<div class="container">
+				<div class="breadcrumbs"><a href="index.html" class="home">Главная</a> <span class="delimetr"></span>
+					<span class="breadcrumbs__current">О компании</span></div>
+				<div class="row justify-content-between">
+					<div class="col-md-5 col-sm-8">
+						<h1 class="page__title">О компании</h1>
+						<div class="banner__info">Самая быстрорастущая компания по поставке продуктов для японской и
+							паназиатской кухни</div><a href="#" class="btn">Связаться с нами</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-group">
+			<div class="container">
+				<div class="row justify-content-between align-items-end">
+					<div class="col-md-5">
+						<div class="section__title">Группа компаний "Тамаки"</div><a data-fancybox
+							href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+								src="img/about-video.png" alt=""></a>
+					</div>
+					<div class="col-md-7 col-lg-6">
+						<div class="company-group__wrap">
+							<div class="row">
+								<div class="col-sm-4 col-6">
+									<div class="company-group__item">
+										<div class="company-group__icon"><img src="img/company-1.svg" alt=""></div>
+										<p>Охват - 85 субъектов РФ и СНГ</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-6">
+									<div class="company-group__item">
+										<div class="company-group__icon"><img src="img/company-2.svg" alt=""></div>
+										<p>Прямые поставки в больших объемах</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-6">
+									<div class="company-group__item">
+										<div class="company-group__icon"><img src="img/company-3.svg" alt=""></div>
+										<p>Ведем строительство еще одного завода в Москве</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-6">
+									<div class="company-group__item">
+										<div class="company-group__icon"><img src="img/company-4.svg" alt=""></div>
+										<p>Лидер производства продуктов для HoReCa</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-6">
+									<div class="company-group__item">
+										<div class="company-group__icon"><img src="img/company-5.svg" alt=""></div>
+										<p>Развиваемся на европейский рынок</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-6">
+									<div class="company-group__item">
+										<div class="company-group__icon"><img src="img/company-6.svg" alt=""></div>
+										<p>На рынке - 12 лет</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-benefits section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-sm-6">
+						<div class="section__title">Преимущества нашей продукции</div>
+						<div id="company-benefits"
+							class="owl-theme owl-carousel d-block d-md-none academy-orginise-carousel">
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">01</div>
+								<div class="title">Представлены несколько брендов с широким ассортиментом</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">02</div>
+								<div class="title">Отличного качество, согласно ГОСТ</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">03</div>
+								<div class="title">Произведена по традиционным японским технологиям</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">04</div>
+								<div class="title">Высокое содержание ценных, натуральных составляющих</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">05</div>
+								<div class="title">Доводится до «идеала» по итогам дегустаций</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">06</div>
+								<div class="title">Победитель множества слепых дегустаций</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">07</div>
+								<div class="title">Высшая оценка по версии поваров</div>
+							</div>
+						</div>
+						<div class="academy-orginise__wrap d-none d-md-block">
+							<div class="academy-orginise__number">
+								<div class="academy-orginise__number-item check" data-number="1">01</div>
+								<div class="academy-orginise__number-item" data-number="2">02</div>
+								<div class="academy-orginise__number-item" data-number="3">03</div>
+								<div class="academy-orginise__number-item" data-number="4">04</div>
+								<div class="academy-orginise__number-item" data-number="5">05</div>
+								<div class="academy-orginise__number-item" data-number="6">06</div>
+								<div class="academy-orginise__number-item" data-number="7">07</div>
+							</div>
+							<div class="academy-orginise__info active" id="1">
+								<div class="company-benefits__number">01</div>
+								<p>Представлены несколько брендов с широким ассортиментом</p>
+							</div>
+							<div class="academy-orginise__info" id="2">
+								<div class="company-benefits__number">02</div>
+								<p>Отличного качество, согласно ГОСТ</p>
+							</div>
+							<div class="academy-orginise__info" id="3">
+								<div class="company-benefits__number">03</div>
+								<p>Произведена по традиционным японским технологиям</p>
+							</div>
+							<div class="academy-orginise__info" id="4">
+								<div class="company-benefits__number">04</div>
+								<p>Высокое содержание ценных, натуральных составляющих</p>
+							</div>
+							<div class="academy-orginise__info" id="5">
+								<div class="company-benefits__number">05</div>
+								<p>Доводится до «идеала» по итогам дегустаций</p>
+							</div>
+							<div class="academy-orginise__info" id="6">
+								<div class="company-benefits__number">06</div>
+								<p>Победитель множества слепых дегустаций</p>
+							</div>
+							<div class="academy-orginise__info" id="7">
+								<div class="company-benefits__number">07</div>
+								<p>Высшая оценка по версии поваров</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-6 d-none d-md-block">
+						<div class="academy-orginise__info image active" id="i-1"><img src="img/1.png" alt=""></div>
+						<div class="academy-orginise__info image" id="i-2"><img src="img/2.png" alt=""></div>
+						<div class="academy-orginise__info image" id="i-3"><img src="img/3.png" alt=""></div>
+						<div class="academy-orginise__info image" id="i-4"><img src="img/4.png" alt=""></div>
+						<div class="academy-orginise__info image" id="i-5"><img src="img/5.png" alt=""></div>
+						<div class="academy-orginise__info image" id="i-6"><img src="img/6.png" alt=""></div>
+						<div class="academy-orginise__info image" id="i-7"><img src="img/7.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-partners">
+			<div class="container">
+				<div class="section__title">Наши партнеры и клиенты</div>
+				<div class="section__info">Более 300 дистрибьюторов сегментов HoReCa и Ритейл</div>
+				<div class="row justify-content-between">
+					<div class="col-6">
+						<div class="company-partners__item">Поставщики продуктов питания</div>
+					</div>
+					<div class="col-6">
+						<div class="company-partners__item">Консервные заводы, цеха и кулинарии</div>
+					</div>
+					<div class="col-6">
+						<div class="company-partners__item">Сети гипермаркетов, супермаркетов</div>
+					</div>
+					<div class="col-6">
+						<div class="company-partners__item">Производители замороженных полуфабрикатов</div>
+					</div>
+					<div class="col-6">
+						<div class="company-partners__item">Интернет-магазины</div>
+					</div>
+					<div class="col-6">
+						<div class="company-partners__item">Владельцы собственных торговых марок</div>
+					</div>
+					<div class="col-6">
+						<div class="company-partners__item">Производители готовых блюд и снеков</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-photos section">
+			<div class="container">
+				<div class="tabs__wrap"><button type="button" class="tabs__link primary active"
+						data-target="photo-tab">Фотографии</button> <button type="button" class="tabs__link primary"
+						data-target="video-tab">Видео</button></div>
+				<div class="row justify-content-center">
+					<div class="col-md-10">
+						<div id="photo-tab" class="tabs__panel active">
+							<div class="company-photos-carousel owl-theme owl-carousel">
+								<div class="company-photos__item">
+									<div class="company-photos__img"><img src="img/photo-1.png" alt=""></div>
+								</div>
+								<div class="company-photos__item">
+									<div class="company-photos__img"><img src="img/photo-2.png" alt=""></div>
+								</div>
+								<div class="company-photos__item">
+									<div class="company-photos__img"><img src="img/photo-3.png" alt=""></div>
+								</div>
+							</div>
+						</div>
+						<div id="video-tab" class="tabs__panel">
+							<div class="company-photos-carousel owl-theme owl-carousel">
+								<div class="company-photos__item"><a rel="nofollow noopener"
+										href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+										class="vacancy__video-img"><img src="img/photo-4.png" alt=""></a></div>
+								<div class="company-photos__item"><a rel="nofollow noopener"
+										href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+										class="vacancy__video-img"><img src="img/photo-5.png" alt=""></a></div>
+								<div class="company-photos__item"><a rel="nofollow noopener"
+										href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+										class="vacancy__video-img"><img src="img/photo-5.png" alt=""></a></div>
+								<div class="company-photos__item"><a rel="nofollow noopener"
+										href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+										class="vacancy__video-img"><img src="img/photo-6.png" alt=""></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-get">
+			<div class="container">
+				<div class="title">Что получают наши партнеры</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">01</div>
+							<p>Живое и дистанционное обучение нашей продукции</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">02</div>
+							<p>Программы развития и поддержки продаж</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">03</div>
+							<p>Непрерывные акции с бонусами и подарками</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">04</div>
+							<p>Подробное описание продукции для сайтов</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">05</div>
+							<p>Мастер-классы и глобальные дегустации в городах</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">06</div>
+							<p>Совместное участие в выставках</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-6">
+						<div class="company-get__item">
+							<div class="title-pink">07</div>
+							<p>Раскрутка продукции известными блогерами</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section work company">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="section__title-big">Начните работать с <span>Tamaki</span> прямо сейчас!</div>
+						<div class="section__info">Заполните форму и в течение 30 секунд мы пришлем вам каталог
+							продукции и прайс.</div>
+						<div class="work__form">
+							<form action="" class="form">
+								<div class="row">
+									<div class="col-sm-6"><input type="text" name="name" required
+											placeholder="Ваше Имя"> <input type="text" name="city" required
+											placeholder="Город"> <input type="email" name="email" required
+											placeholder="E-mail"></div>
+									<div class="col-sm-6"><input type="tel" name="phone" required
+											placeholder="+7 000 000 00 00"> <input type="text" name="company" required
+											placeholder="Компания">
+										<p class="privacy-politic">Отправляя заявку, я соглашаюсь с <a href="#"
+												target="_blank">Политикой конфиденциальности</a></p>
+									</div>
+									<div class="col-sm-6"><button type="submit" class="btn">Отправить заявку</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="work__img">
+							<div class="work__img-item"><img src="img/work-1.png" alt="Tamaki"></div>
+							<div class="work__img-item"><img src="img/work-2.png" alt="Tamaki"></div>
+							<div class="work__img-item"><img src="img/work-3.png" alt="Tamaki"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-why">
+			<div class="container">
+				<div class="section__title">Почему мы</div>
+				<div class="section__info">Секреты нашего успеха на рынке - ваши преимущества</div>
+				<div class="carousel-nav__wrap"><button type="button" class="owl-button prev"></button> <button
+						type="button" class="owl-button next"></button></div>
+				<div class="company-why__carousel owl-carousel owl-theme">
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-1.svg" alt=""></div>
+						<div class="title-pink">Ассортимент</div>
+						<p>Полные линейки для сегментов: «Премиум», «Стандарт» и без брендов</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-2.svg" alt=""></div>
+						<div class="title-pink">Качество</div>
+						<p>Контроль качества в соответствии с мировыми стандартами</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-3.svg" alt=""></div>
+						<div class="title-pink">Импорт</div>
+						<p>Зарубежные поставки в любые страны</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-4.svg" alt=""></div>
+						<div class="title-pink">Награды</div>
+						<p>Золотая медаль за лучшую продукцию</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-5.svg" alt=""></div>
+						<div class="title-pink">Брендинг</div>
+						<p>Возможно производство под собственной торговой маркой Клиента (СТМ)</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-6.svg" alt=""></div>
+						<div class="title-pink">Продажи</div>
+						<p>Постоянно растущие продажи у дистрибьюторов</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-7.svg" alt=""></div>
+						<div class="title-pink">Хиты продаж</div>
+						<p>Большинство позиций являются хитами</p>
+					</div>
+					<div class="company-why__item">
+						<div class="company-why__icon"><img src="img/why-8.svg" alt=""></div>
+						<div class="title-pink">Гибкие объёмы поставок</div>
+						<p>Поставки мелким, средним и крупным оптом, а также контейнерами</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="company-form section">
+			<div class="container">
+				<div class="company-form__inner">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="section__title">Хотите узнать цены и где можно купить нашу продукцию?</div>
+							<div class="section__info">Направляйте информацию о себе через форму обратной связи (ниже)
+								или по тел.: +7 (495) 989-44-35</div>
+						</div>
+						<div class="col-md-12">
+							<form action="">
+								<div class="row no-gutters">
+									<div class="col-md-5 col-sm-6">
+										<div class="company-form__left"><input type="text" name="name" required
+												placeholder="Ваше Имя"> <input type="email" name="email" required
+												placeholder="E-mail"> <input type="tel" name="phone" required
+												placeholder="+7 000 000 00 00">
+											<p class="privacy-politic d-none d-sm-block">Оставляя отзыв, я соглашаюсь с
+												<a href="#" target="_blank">Политикой конфиденциальности</a></p><button
+												type="submit" class="btn d-none d-sm-block">Отправить</button>
+										</div>
+									</div>
+									<div class="col-md-7 col-sm-6">
+										<div class="company-form__textarea"><span>Ваш комментарий <span
+													class="sm">(Максимум 300 символов)</span></span> <textarea
+												name="comment" maxlength="300"></textarea></div>
+									</div>
+									<div class="col-md-6 d-block d-sm-none">
+										<p class="privacy-politic">Оставляя отзыв, я соглашаюсь с <a href="#"
+												target="_blank">Политикой конфиденциальности</a></p><button
+											type="submit" class="btn">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end MAIN HTML -->
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-3">
+					<div class="widget__wrap">
+						<div class="logo"><a href="#" title="Tamaki"><img src="img/logo_white.svg" alt="Tamaki"></a>
+						</div>
+						<div class="footer__contacts"><a href="tel:+74959894435" class="topbar__phone" rel="nofollow">+7
+								495 989 44 35</a> <a href="mailto:hello@tamaki.ru" class="topbar__mail"
+								rel="nofollow">hello@tamaki.ru</a></div>
+						<div class="address">Московская обл., г. Люберцы, ул. Комсомольская, д.15а БЦ "Легион"</div><a
+							href="#contact-us" class="btn modal-btn" title="Связаться с нами" rel="nofollow">Связаться с
+							нами</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 d-block d-sm-none">
+					<div class="widget__wrap">
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="Продукция">Продукция</a></li>
+							<li class="widget__item"><a href="#" title="Обучение">Обучение</a></li>
+							<li class="widget__item"><a href="#" title="Академия «Тамаки»">Академия</a></li>
+							<li class="widget__item"><a href="#" title="Доставка суши">Доставка суши</a></li>
+							<li class="widget__item"><a href="#" title="О компании">О компании</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 ml-auto d-none d-sm-block">
+					<div class="widget__wrap">
+						<div class="widget__title">Продукция</div>
+						<ul class="widget__menu">
+							<li class="widget__item small"><a href="#" title="Рис">Рис</a></li>
+							<li class="widget__item small"><a href="#" title="Водоросли (Чука и Нори)">Водоросли (Чука и
+									Нори)</a></li>
+							<li class="widget__item small"><a href="#" title="Соусы, уксусы">Соусы, уксусы</a></li>
+							<li class="widget__item small"><a href="#" title="Васаби">Васаби</a></li>
+							<li class="widget__item small"><a href="#" title="Лапша, панировочные сухари">Лапша,
+									панировочные сухари</a></li>
+							<li class="widget__item small"><a href="#" title="Икра">Икра</a></li>
+							<li class="widget__item small"><a href="#" title="Имбирь, кунжутное семя">Имбирь, кунжутное
+									семя</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 d-none d-sm-block">
+					<div class="widget__wrap">
+						<div class="widget__title">Обучение</div>
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="Академия «Тамаки»">Академия «Тамаки»</a></li>
+							<li class="widget__item"><a href="#" title="Дистрибьюторам">Дистрибьюторам</a></li>
+						</ul>
+					</div>
+					<div class="widget__wrap">
+						<div class="widget__title">Кухня</div>
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="Доставка суши">Доставка суши</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="widget__wrap company d-none d-sm-block">
+						<div class="widget__title">Компания</div>
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="О нас">О нас</a></li>
+							<li class="widget__item"><a href="#" title="Пресс-центр">Пресс-центр</a></li>
+							<li class="widget__item"><a href="#" title="Акции">Акции</a></li>
+							<li class="widget__item"><a href="#" title="Контакты">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="socials"><a href="vk.com" target="_blank" class="socials__item vk" rel="nofollow"><img
+								src="img/vk.svg" alt="VK"></a><a href="instagram.com" target="_blank"
+							class="socials__item inst" rel="nofollow"><img src="img/inst.svg" alt="instagram"></a><a
+							href="facebook.com" target="_blank" class="socials__item fb" rel="nofollow"><img
+								src="img/fb.svg" alt="facebook"></a><a href="youtube.com" target="_blank"
+							class="socials__item youtube" rel="nofollow"><img src="img/youtube.svg" alt="youtube"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="row justify-content-between align-items-centers">
+					<div class="col-sm-3 order-sm-0 order-2">
+						<div class="rights">Все права защищены</div>
+					</div>
+					<div class="col-md-3 col-sm-4 order-sm-0 order-1">
+						<div class="copyrights">&copy; 2020-2021 ГК "Тамаки"</div>
+					</div>
+					<div class="col-md-3 col-sm-5 order-sm-0 order-3">
+						<div class="develope">Разработка сайта <a href="#"><img src="img/sertop.svg" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--   <script>
+        setTimeout(function () { 
+ 
+var tag = document.createElement("script");
+tag.src = "js/scripts.min.js";
+tag.async = true;
+document.getElementsByTagName("footer")[0].appendChild(tag);
+ 
+ }, 3000)
+    </script>  -->
+	<script defer="defer" async src="js/scripts.min.js"></script>
+</body>
+
+</html>

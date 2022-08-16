@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Tamaki</title>
+	<meta charset="utf-8"><!-- <base href="/"> -->
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<meta name="theme-color" content="#000">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="topbar d-none d-md-block">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-5 col-md-6">
+						<nav class="topbar__wrap">
+							<ul class="topbar__menu">
+								<li class="topbar__link"><a href="about.html" title="О компании">О компании</a></li>
+								<li class="topbar__link"><a href="vacancy.html" title="Вакансии">Вакансии</a></li>
+								<li class="topbar__link"><a href="sale.html" title="Акции">Акции</a></li>
+								<li class="topbar__link"><a href="press.html" title="Блог">Блог</a></li>
+								<li class="topbar__link"><a href="#" title="Контакты">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-6 col-lg-5">
+						<div class="topbar__left"><a href="tel:+74959894435" class="topbar__phone">+7 495 989 44 35</a>
+							<a href="mailto:hello@tamaki.ru" class="topbar__mail">hello@tamaki.ru</a>
+							<div class="language"><a href="#" data-lang="RU" class="language__item current">RU</a>
+								<div class="language__switcher"></div><a href="#" data-lang="EN"
+									class="language__item">EN</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu__wrap sticky-bar">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-md-3 col-4">
+						<div class="logo"><a href="index.html" title="Главная"><img src="img/logo.svg" alt="Tamaki"></a>
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-9 col-8">
+						<div class="mobile__wrap">
+							<div class="language d-flex d-md-none"><a href="#" data-lang="RU"
+									class="language__item current">RU</a>
+								<div class="language__switcher"></div><a href="#" data-lang="EN"
+									class="language__item">EN</a>
+							</div><button type="button" class="burger d-block d-md-none"><span></span></button>
+							<div class="menu__left-wrap">
+								<div class="menu__left">
+									<nav class="menu__nav">
+										<ul class="menu">
+											<li class="menu__item"><a href="catalog.html"
+													title="Продукция">Продукция</a></li>
+											<li class="menu__item has-children"><a href="study.html"
+													title="Обучение">Обучение</a> <span class="dropdown-arrow"></span>
+												<ul class="sub-menu">
+													<li class="sub-menu__item"><a href="academy.html"
+															title="Академия «Тамаки»">Академия «Тамаки»</a></li>
+													<!-- <li class="sub-menu__item">
+													<a href="#" title="Дистибьюторам">Дистибьюторам</a>
+												</li> -->
+												</ul>
+											</li>
+											<li class="menu__item delivery"><a href="#" title="Доставка суши">Доставка
+													суши</a></li>
+										</ul>
+									</nav>
+									<nav class="topbar__wrap d-block d-md-none">
+										<ul class="topbar__menu">
+											<li class="topbar__link"><a href="about.html" title="О компании">О
+													компании</a></li>
+											<li class="topbar__link"><a href="vacancy.html"
+													title="Вакансии">Вакансии</a></li>
+											<li class="topbar__link"><a href="sale.html" title="Акции">Акции</a></li>
+											<li class="topbar__link"><a href="press.html" title="Блог">Блог</a></li>
+											<li class="topbar__link"><a href="#" title="Контакты">Контакты</a></li>
+										</ul>
+									</nav><a href="#contact-us" class="btn modal-btn" title="Связаться с нами">Связаться
+										с нами</a>
+									<div class="socials d-flex d-md-none"><a href="vk.com" target="_blank"
+											class="socials__item vk" rel="nofollow"><img src="img/vk.svg"
+												alt="VK"></a><a href="instagram.com" target="_blank"
+											class="socials__item inst" rel="nofollow"><img src="img/inst.svg"
+												alt="instagram"></a><a href="facebook.com" target="_blank"
+											class="socials__item fb" rel="nofollow"><img src="img/fb.svg"
+												alt="facebook"></a><a href="youtube.com" target="_blank"
+											class="socials__item youtube" rel="nofollow"><img src="img/youtube.svg"
+												alt="youtube"></a></div><a href="tel:+74959894435"
+										class="topbar__phone d-block d-md-none">+7 495 989 44 35</a> <a
+										href="mailto:hello@tamaki.ru"
+										class="topbar__mail d-block d-md-none">hello@tamaki.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main-wrapper">
+		<!-- MAIN HTML -->
+		<div class="page__header study-header academy">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-8 col-sm-7">
+						<div class="breadcrumbs"><a href="index.html" class="home">Главная</a> <span
+								class="delimetr"></span> <span class="breadcrumbs__current">Академия</span></div>
+						<h1 class="page__title">Академия суши "Тамаки"</h1>
+						<div class="banner__info">Бесплатные онлайн мастер-классы по приготовлению блюд японской и
+							паназиатской кухни для профессионалов HoReCA</div><a href="#" class="btn">Ближайший
+							мастер-класс</a>
+					</div>
+					<div class="col-md-4 col-sm-5">
+						<div class="study-header__img"><img src="img/study-1.png" alt="Академия суши Тамаки"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="academy-who section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-5 col-sm-6">
+						<div class="academy-who__content">
+							<div class="section__title">Кто мы и почему предлагаем обучение?</div>
+							<div class="section__info">Мы, компания "Тамаки", являемся производителем и осуществляем
+								оптовые поставки профессиональных продуктов для паназиатской кухни.</div><a
+								href="about.html" class="btn btn-primary">Подробнее о компании</a>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-6">
+						<div class="academy-who__img"><img src="img/academy-who.jpg" alt="Тамаки"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="academy-for-who">
+			<div class="container">
+				<div class="row align-items-end justify-content-between">
+					<div class="col-md-5">
+						<div class="section__title">Кому будут полезны наши онлайн-курсы?</div>
+					</div>
+					<div class="col-md-6">
+						<div class="section__info">Приглашаем к участию всех профессиональных участников рынка HoReCa,
+							сотрудников ресторанов японской и паназиатской кухни</div>
+					</div>
+				</div>
+				<div class="row justify-content-between academy-for-who__wrap">
+					<div class="col-sm-3 col-6">
+						<div class="academy-for-who__item">
+							<div class="academy-for-who__number">01</div>
+							<div class="title">Поварам, шеф-поварам</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-6">
+						<div class="academy-for-who__item">
+							<div class="academy-for-who__number">02</div>
+							<div class="title">Владельцам и директорам</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-6">
+						<div class="academy-for-who__item">
+							<div class="academy-for-who__number">03</div>
+							<div class="title">Менеджерам отделов закупки</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-6">
+						<div class="academy-for-who__item">
+							<div class="academy-for-who__number">04</div>
+							<div class="title">Технологам</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="academy-invite section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-5 col-sm-5">
+						<div class="academy-invite__item">
+							<div class="section__title">Посмотрите видео-приглашение</div>
+							<div class="section__info">от Андрея Белянина, управляющего партнера группы компаний
+								«Тамаки», и Сергея Кожакова, бренд-шефа "Академии суши "Тамаки"</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-7"><a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+							class="vacancy__video-img"><img src="img/academy-video.png" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="academy-master-class">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="section__title">Что будет на мастер-классах?</div>
+					</div>
+				</div>
+				<div class="row" id="master-class">
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Во время обучения мы покажем насколько вкусные и необычные блюда можно приготовить из
+								нашей продукции.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Показать Вам красивые и оригинальные подачи блюд.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Поделиться идеями, как сочетать продукты в рецептах, которые, по сути, не сочетаются.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Показать, как привычные продукты можно использовать совсем непривычным способом.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Познакомить с мировыми тенденциями в японской и паназиатской кухне.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Поделиться самыми быстрыми и дешевыми рецептами, и при этом не менее модными и
+								оригинальными.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>Показать, как с помощью наших продуктов разнообразить даже самое привычное блюдо, изменив
+								его до неузнаваемости.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="academy-master-class__item">
+							<div class="academy-master-class__check"><img src="img/check.svg" alt=""></div>
+							<p>А также поделиться опытом, как проводить проработки и определять категории и качество
+								продукции.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="manager-connect study-teacher academy">
+			<div class="container">
+				<div class="manager-connect__wrap">
+					<div class="manager-connect__icon"></div>
+					<div class="row justify-content-between">
+						<div class="col-md-6 col-sm-5">
+							<div class="title">Мастер-классы проводят известные шеф-повара и профессионалы рынка HoReCa
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-7">
+							<div class="manager-connect__img"><img src="img/academy-cooker.png" alt="Никифоров Павел">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="academy-shedule section">
+			<div class="container">
+				<div class="row align-items-end justify-content-between">
+					<div class="col-md-5 col-sm-6">
+						<div class="section__title">Расписание онлайн мастер-классов</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="section__info">Выберите подходящую вам дату и тему мастер-класса, чтобы узнать
+							подробнее о программе и зарегистрироваться.</div>
+					</div>
+				</div>
+				<div class="academy-shedule__wrap owl-theme owl-carousel"><a href="#" class="academy-shedule__item"
+						rel="nofollow noindex" target="_blank"><span class="academy-shedule__top"><span
+								class="academy-shedule__number">Мастер-класс №1</span> <span class="section__info">ASIA-
+								женский формат</span> </span><span class="academy-shedule__bottom"><span class="date">26
+								апреля, пн</span> <span class="time">10:00 (Мск)</span> </span></a><a href="#"
+						class="academy-shedule__item" rel="nofollow noindex" target="_blank"><span
+							class="academy-shedule__top"><span class="academy-shedule__number">Мастер-класс №2</span>
+							<span class="section__info">Битва WOKов</span> </span><span
+							class="academy-shedule__bottom"><span class="date">17 мая, пн</span> <span
+								class="time">10:00 (Мск)</span> </span></a><a href="#" class="academy-shedule__item"
+						rel="nofollow noindex" target="_blank"><span class="academy-shedule__top"><span
+								class="academy-shedule__number">Мастер-класс №3</span> <span class="section__info">ASIA-
+								женский формат</span> </span><span class="academy-shedule__bottom"><span class="date">24
+								мая, пн</span> <span class="time">10:00 (Мск)</span> </span></a><a href="#"
+						class="academy-shedule__item" rel="nofollow noindex" target="_blank"><span
+							class="academy-shedule__icon"><img src="img/fire.png" alt=""><span
+								class="label-pop">Премьера</span></span> <span class="academy-shedule__top"><span
+								class="academy-shedule__number">Мастер-класс №4</span> <span
+								class="section__info">Паназиатский FastFood</span> </span><span
+							class="academy-shedule__bottom"><span class="date">31 мая, пн</span> <span
+								class="time">10:00 (Мск)</span></span></a></div>
+			</div>
+		</div>
+		<div class="academy-orginise">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-5 col-sm-6">
+						<div class="section__title">Как организовано онлайн- обучение?</div>
+						<div class="owl-theme owl-carousel d-block d-sm-none academy-orginise-carousel">
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">01</div>
+								<div class="title">Обучение дистанционное, проводится в нашей вебинарной комнате.</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">02</div>
+								<div class="title">Для участия в онлайн мастер-классе вам необходимо зарегистрироваться
+									на странице ближайшего мероприятия</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">03</div>
+								<div class="title">Перейти на которую вы можете нажав на кнопку "Посмотреть ближайший
+									мастер-класс".</div>
+							</div>
+							<div class="academy-for-who__item">
+								<div class="academy-for-who__number">04</div>
+								<div class="title">И далее, все что вам нужно будет сделать, перейти в день
+									мастер-класса по ссылке в письме, которое придет на ваш электронный адрес от
+									компании «Мир Суши».</div>
+							</div>
+						</div><a href="#" class="btn">Ближайший мастер-класс</a>
+					</div>
+					<div class="col-md-6 col-sm-6 d-none d-sm-block">
+						<div class="academy-orginise__wrap">
+							<div class="academy-orginise__number">
+								<div class="academy-orginise__number-item check" data-number="1">01</div>
+								<div class="academy-orginise__number-item" data-number="2">02</div>
+								<div class="academy-orginise__number-item" data-number="3">03</div>
+								<div class="academy-orginise__number-item" data-number="4">04</div>
+							</div>
+							<div class="academy-orginise__info active" id="1">Обучение дистанционное, проводится в нашей
+								вебинарной комнате.</div>
+							<div class="academy-orginise__info" id="2">Для участия в онлайн мастер-классе вам необходимо
+								зарегистрироваться на странице ближайшего мероприятия</div>
+							<div class="academy-orginise__info" id="3">Перейти на которую вы можете нажав на кнопку
+								"Посмотреть ближайший мастер-класс".</div>
+							<div class="academy-orginise__info" id="4">И далее, все что вам нужно будет сделать, перейти
+								в день мастер-класса по ссылке в письме, которое придет на ваш электронный адрес от
+								компании «Мир Суши».</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="testimonials__section section">
+			<div class="container">
+				<div class="section__title-wrap">
+					<div class="section__title">Отзывы об обучении</div>
+					<div class="carousel-nav">
+						<div class="tabs__panel active" id="text-testimonial">
+							<div class="carousel-nav__wrap"><button type="button" class="owl-button prev"></button>
+								<button type="button" class="owl-button next"></button></div>
+						</div>
+						<div class="tabs__panel" id="video-testimonial">
+							<div class="carousel-nav__wrap"><button type="button" class="owl-button prev"></button>
+								<button type="button" class="owl-button next"></button></div>
+						</div>
+					</div>
+				</div>
+				<div class="tabs__wrap"><button type="button" class="tabs__link active"
+						data-target="text-testimonial">Текстовые</button> <button type="button" class="tabs__link"
+						data-target="video-testimonial">Видеоотзывы</button></div>
+				<div class="tabs__panel active" id="text-testimonial">
+					<div id="text-testimonials" class="owl-theme owl-carousel">
+						<div class="testimonials__item">
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Иван Иванович</div>
+									<div class="testimonials__author-rate"><span style="width: 71%"></span></div>
+								</div>
+							</div>
+							<p class="testimonials__content">Настоящий хит продаж. Идеален для приготовления блюд
+								японской кухни — суши и ролов. Обладает высокой клейкостью, но сохраняет структуру.
+								Хорошо проваривается и увеличивается в объеме.</p>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item">
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Иван Иванович</div>
+									<div class="testimonials__author-rate"><span style="width: 80%"></span></div>
+								</div>
+							</div>
+							<p class="testimonials__content">Настоящий хит продаж. Идеален для приготовления блюд
+								японской кухни — суши и ролов. Обладает высокой клейкостью, но сохраняет структуру.
+								Хорошо проваривается и увеличивается в объеме.</p>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item">
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Иван Иванович</div>
+									<div class="testimonials__author-rate"><span style="width: 50%"></span></div>
+								</div>
+							</div>
+							<p class="testimonials__content">Настоящий хит продаж. Идеален для приготовления блюд
+								японской кухни — суши и ролов. Обладает высокой клейкостью, но сохраняет структуру.
+								Хорошо проваривается и увеличивается в объеме.</p>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item">
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Иван Иванович</div>
+									<div class="testimonials__author-rate"><span style="width: 100%"></span></div>
+								</div>
+							</div>
+							<p class="testimonials__content">Настоящий хит продаж. Идеален для приготовления блюд
+								японской кухни — суши и ролов. Обладает высокой клейкостью, но сохраняет структуру.
+								Хорошо проваривается и увеличивается в объеме.</p>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item">
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Иван Иванович</div>
+									<div class="testimonials__author-rate"><span style="width: 80%"></span></div>
+								</div>
+							</div>
+							<p class="testimonials__content">Настоящий хит продаж. Идеален для приготовления блюд
+								японской кухни — суши и ролов. Обладает высокой клейкостью, но сохраняет структуру.
+								Хорошо проваривается и увеличивается в объеме.</p>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+					</div>
+				</div>
+				<div class="tabs__panel" id="video-testimonial">
+					<div id="video-testimonials" class="testimonials__video owl-theme owl-carousel">
+						<div class="testimonials__item"><a data-fancybox
+								href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+									src="img/video-1.png" alt=""></a>
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Александра Черкашина</div>
+								</div>
+							</div>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item"><a data-fancybox
+								href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+									src="img/video-2.png" alt=""></a>
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Александра Черкашина</div>
+								</div>
+							</div>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item"><a data-fancybox
+								href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+									src="img/video-3.png" alt=""></a>
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Александра Черкашина</div>
+								</div>
+							</div>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item"><a data-fancybox
+								href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+									src="img/video-1.png" alt=""></a>
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Александра Черкашина</div>
+								</div>
+							</div>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item"><a data-fancybox
+								href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+									src="img/video-1.png" alt=""></a>
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Александра Черкашина</div>
+								</div>
+							</div>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+						<div class="testimonials__item"><a data-fancybox
+								href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vacancy__video-img"><img
+									src="img/video-3.png" alt=""></a>
+							<div class="testimonials__author">
+								<div class="testimonials__author-img"><img src="img/author-placeholder.png" alt="">
+								</div>
+								<div class="testimonials__author-right">
+									<div class="testimonials__author-name">Александра Черкашина</div>
+								</div>
+							</div>
+							<div class="testimonials__date">17 марта 2021</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="follow-us__section academy">
+			<div class="container">
+				<div class="follow-us">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-lg-7 col-md-6">
+							<div class="section__title">Хотите узнать больше?</div>
+							<p>Выберите удобный вам мессенджер и пообщайтесь с виртуальной помощницей нашей Академии -
+								чат-ботом.</p>
+						</div>
+						<div class="col-lg-5 col-md-6">
+							<div class="follow-us__wrap"><a href="whatsup.com" target="_blank"
+									class="follow-us__item whatsup"><img src="img/whatsapp.svg" alt="whatsup"></a><a
+									href="telegram.com" target="_blank" class="follow-us__item telegram"><img
+										src="img/telegram.svg" alt="telegram"></a><a href="viber.com" target="_blank"
+									class="follow-us__item viber"><img src="img/viber.svg" alt="Viber"></a><a
+									href="facebook.com" target="_blank" class="follow-us__item fb"><img
+										src="img/facebook.svg" alt="facebook"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="question-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-5">
+						<div class="section__title">Остались вопросы?</div>
+						<p>Напишите нам, чтобы мы могли развеять все ваши сомнения и детально проконсультировать по
+							вопросам онлайн мастер-классов и продукции компании</p>
+					</div>
+					<div class="col-md-7 col-lg-6">
+						<div class="question__form">
+							<form action="" class="form">
+								<div class="row">
+									<div class="col-sm-6"><input type="text" name="name" required
+											placeholder="Ваше Имя"> <input type="email" name="email" required
+											placeholder="E-mail"></div>
+									<div class="col-sm-6"><input type="tel" name="phone" required
+											placeholder="+7 000 000 00 00">
+										<p class="privacy-politic">Отправляя заявку, я соглашаюсь с <a href="#"
+												target="_blank">Политикой конфиденциальности</a></p>
+									</div>
+									<div class="col-sm-6"><button type="submit" class="btn">Заказать
+											консультацию</button></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end MAIN HTML -->
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-3">
+					<div class="widget__wrap">
+						<div class="logo"><a href="#" title="Tamaki"><img src="img/logo_white.svg" alt="Tamaki"></a>
+						</div>
+						<div class="footer__contacts"><a href="tel:+74959894435" class="topbar__phone" rel="nofollow">+7
+								495 989 44 35</a> <a href="mailto:hello@tamaki.ru" class="topbar__mail"
+								rel="nofollow">hello@tamaki.ru</a></div>
+						<div class="address">Московская обл., г. Люберцы, ул. Комсомольская, д.15а БЦ "Легион"</div><a
+							href="#contact-us" class="btn modal-btn" title="Связаться с нами" rel="nofollow">Связаться с
+							нами</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 d-block d-sm-none">
+					<div class="widget__wrap">
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="Продукция">Продукция</a></li>
+							<li class="widget__item"><a href="#" title="Обучение">Обучение</a></li>
+							<li class="widget__item"><a href="#" title="Академия «Тамаки»">Академия</a></li>
+							<li class="widget__item"><a href="#" title="Доставка суши">Доставка суши</a></li>
+							<li class="widget__item"><a href="#" title="О компании">О компании</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 ml-auto d-none d-sm-block">
+					<div class="widget__wrap">
+						<div class="widget__title">Продукция</div>
+						<ul class="widget__menu">
+							<li class="widget__item small"><a href="#" title="Рис">Рис</a></li>
+							<li class="widget__item small"><a href="#" title="Водоросли (Чука и Нори)">Водоросли (Чука и
+									Нори)</a></li>
+							<li class="widget__item small"><a href="#" title="Соусы, уксусы">Соусы, уксусы</a></li>
+							<li class="widget__item small"><a href="#" title="Васаби">Васаби</a></li>
+							<li class="widget__item small"><a href="#" title="Лапша, панировочные сухари">Лапша,
+									панировочные сухари</a></li>
+							<li class="widget__item small"><a href="#" title="Икра">Икра</a></li>
+							<li class="widget__item small"><a href="#" title="Имбирь, кунжутное семя">Имбирь, кунжутное
+									семя</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 d-none d-sm-block">
+					<div class="widget__wrap">
+						<div class="widget__title">Обучение</div>
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="Академия «Тамаки»">Академия «Тамаки»</a></li>
+							<li class="widget__item"><a href="#" title="Дистрибьюторам">Дистрибьюторам</a></li>
+						</ul>
+					</div>
+					<div class="widget__wrap">
+						<div class="widget__title">Кухня</div>
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="Доставка суши">Доставка суши</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="widget__wrap company d-none d-sm-block">
+						<div class="widget__title">Компания</div>
+						<ul class="widget__menu">
+							<li class="widget__item"><a href="#" title="О нас">О нас</a></li>
+							<li class="widget__item"><a href="#" title="Пресс-центр">Пресс-центр</a></li>
+							<li class="widget__item"><a href="#" title="Акции">Акции</a></li>
+							<li class="widget__item"><a href="#" title="Контакты">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="socials"><a href="vk.com" target="_blank" class="socials__item vk" rel="nofollow"><img
+								src="img/vk.svg" alt="VK"></a><a href="instagram.com" target="_blank"
+							class="socials__item inst" rel="nofollow"><img src="img/inst.svg" alt="instagram"></a><a
+							href="facebook.com" target="_blank" class="socials__item fb" rel="nofollow"><img
+								src="img/fb.svg" alt="facebook"></a><a href="youtube.com" target="_blank"
+							class="socials__item youtube" rel="nofollow"><img src="img/youtube.svg" alt="youtube"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="row justify-content-between align-items-centers">
+					<div class="col-sm-3 order-sm-0 order-2">
+						<div class="rights">Все права защищены</div>
+					</div>
+					<div class="col-md-3 col-sm-4 order-sm-0 order-1">
+						<div class="copyrights">&copy; 2020-2021 ГК "Тамаки"</div>
+					</div>
+					<div class="col-md-3 col-sm-5 order-sm-0 order-3">
+						<div class="develope">Разработка сайта <a href="#"><img src="img/sertop.svg" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--   <script>
+        setTimeout(function () { 
+ 
+var tag = document.createElement("script");
+tag.src = "js/scripts.min.js";
+tag.async = true;
+document.getElementsByTagName("footer")[0].appendChild(tag);
+ 
+ }, 3000)
+    </script>  -->
+	<script defer="defer" async src="js/scripts.min.js"></script>
+</body>
+
+</html>

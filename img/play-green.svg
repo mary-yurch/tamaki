@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="107" viewBox="0 0 108 107">
+  <defs>
+    <filter id="Эллипс_3280" x="0" y="0" width="108" height="107" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-color="#98b105" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_2347" data-name="Сгруппировать 2347" transform="translate(26.941 19)">
+    <g transform="matrix(1, 0, 0, 1, -26.94, -19)" filter="url(#Эллипс_3280)">
+      <ellipse id="Эллипс_3280-2" data-name="Эллипс 3280" cx="27" cy="26.5" rx="27" ry="26.5" transform="translate(27 19)" fill="#aec912"/>
+    </g>
+    <path id="Многоугольник_5" data-name="Многоугольник 5" d="M6,0l6,11H0Z" transform="translate(34.059 21) rotate(90)" fill="#fff"/>
+  </g>
+</svg>
